@@ -22,3 +22,15 @@ https://electron.org.cn/ electron官网
  
  3. electron .
 
+目录--简要说明
+
+项目根目录--
+--node_modules node模块
+--static 静态资源
+----js
+	--main 主程序 electron 叫主进程文件
+	--view 渲染进程
+--view 视图
+--config.js 配置文件
+--main.js   入口
+--package.json node包配置清单-也是electron一些参数的配置
