@@ -1,8 +1,10 @@
 # big-data 华夏云城精准云扶贫大屏指挥客户端
 
-项目使用 node、vue开发客户端
+项目使用 node、vue开发客户端 ES6开发
 
 框架使用electron 框架。vue使用脚本方式 没有使用vue-cli 做的时候electron 还没推出vue支持 现在出了。
+
+https://electron.org.cn/ electron官网
 
 微软Visual Studio Code 编辑器也是使用这个框架
 
@@ -12,4 +14,11 @@
 
 项目内图表功能使用百度的echarts制作，后端为python+java 其中python作为中介服务器，java为底层服务器 数据库使用mongdb
  
+ 运行方法：需要有npm环境 npm安装node自带
+ 
+ 1. npm install -g electron 
+ 
+ 2. npm install 
+ 
+ 3. electron .
 
